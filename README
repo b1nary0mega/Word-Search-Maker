@@ -1,0 +1,7 @@
+Word-Search-Maker
+=================
+This program will take a word list with column and length sizes, generate a puzzle and then solve it.
+The solving is done via several different algorithms.
+
+--
+Usage: java GeneratePuzzle puzzle-name number-rows number-columns [wordfile-name]
