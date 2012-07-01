@@ -9,7 +9,7 @@ import java.io.IOException;
 
 /**
  * This class will provide more space in the rows of a puzzle created from the
- * GeneratePuzzle Class.
+ * GeneratePuzzle Class. It is used for the HTML generation of a puzzle.
  *
  * @author James R. Aylesworth
  */
@@ -47,7 +47,7 @@ public class SpacePuzzle {
 
         try {
             BufferedWriter br = new BufferedWriter(new FileWriter(puzzleName));
-            br.write("<HTML>\n<HEAD><TITLE>JRA3345 WordSearch of the Day!</TITLE></HEAD>\n");
+            br.write("<HTML>\n<HEAD><TITLE>WordSearch of the Day!</TITLE></HEAD>\n");
             br.write("<BODY>\n");
             br.write("<P align=\"center\"><TT><H1>");
             for (int i = 0; i < rows; i++) {
